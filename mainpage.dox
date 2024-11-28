@@ -1,0 +1,39 @@
+/**
+ * @mainpage RPG Game Documentation
+ * 
+ * @section intro Introduction
+ * Welcome to the RPG Game documentation. This is a text-based role-playing game featuring
+ * character creation, branching storylines, and dynamic gameplay based on character stats.
+ * 
+ * @section arch Architecture
+ * The game is built around three main components:
+ * - @b Character: Handles character creation and stat management
+ * - @b Game: Manages game state and core gameplay mechanics
+ * - @b Story: Controls the branching narrative and story progression
+ * 
+ * @section features Key Features
+ * - Character Classes: Choose between Warrior, Scholar, Diplomat, or Rogue
+ * - Stat-Based Choices: Story decisions are influenced by character attributes
+ * - Inventory System: Collect and manage items throughout your journey
+ * - Multiple Chapters: Experience a rich story across three chapters
+ * - Save/Load System: Save your progress and continue later
+ * 
+ * @section usage Getting Started
+ * 1. Initialize the game using initializeGame()
+ * 2. Create a character with createCharacter()
+ * 3. Start the story with initializeStory()
+ * 4. Use displayCurrentScene() and processPlayerChoice() for gameplay
+ * 
+ * @section deps Dependencies
+ * - ncurses: Required for terminal-based UI
+ * 
+ * @section build Building the Project
+ * Use the provided Makefile:
+ * ```bash
+ * make clean
+ * make
+ * ```
+ * 
+ * @section license License
+ * This project is open source and available under the MIT License.
+ */ 
